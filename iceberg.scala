@@ -136,4 +136,3 @@ val schemaChanged = normalizedSchema1 != normalizedSchema2
   document.add(fieldsTable)
   document.close()
 
-  println(s"PDF Report generated: $pdfPath"
