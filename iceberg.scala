@@ -20,14 +20,6 @@ object SimpleDataFrameExample {
 
     val df = data.toDF("Name", "Age")
 
-    // Print the schema
-    println("DataFrame Schema:")
-    df.printSchema()
-
-    // Show the DataFrame content
-    println("\nDataFrame Content:")
-    df.show()
-
     // Stop the SparkSession
     spark.stop()
   }
