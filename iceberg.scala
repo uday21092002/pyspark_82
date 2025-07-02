@@ -17,8 +17,10 @@ object SimpleDataFrameExample {
       ("Bob", 30),
       ("Charlie", 35)
     )
+    
 
     val df = data.toDF("Name", "Age")
+    df.show()
 
     // Stop the SparkSession
     spark.stop()
